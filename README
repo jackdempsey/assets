@@ -1,0 +1,24 @@
+Name: Assets
+
+Description: Assets is a simple gem that contains an ActiveRecord model, Asset, which relies on paperclip for attachment management
+
+Getting Started
+
+  Usage: 
+
+  Installation: 
+
+
+Getting Involved
+
+  Contributing:
+
+Creators
+  
+  Authors: Jack Dempsey
+  Contributors: 
+
+Legal
+
+  Copyright: 2010 Jack Dempsey
+  License: See LICENSE for details

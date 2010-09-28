@@ -1,0 +1,25 @@
+---
+:name: "Assets"
+:description: "Assets is a simple gem that contains an ActiveRecord model, Asset, which relies on paperclip for attachment management"
+
+:getting_started:
+  :usage: 
+  :installation:
+    :requirements:
+    :steps:
+
+:getting_involved:
+  :contributing:
+  - "Fork the project."
+  - "Make your feature addition or bug fix on a topic branch."
+  - "Add tests for it if applicable (docs may not need it, code might)"
+  - "Commit, do not mess with rakefile, version, or history."
+  - "Send me a pull request. Bonus points for topic branches."
+
+:creators:
+  :authors: "Jack Dempsey"
+  :contributors: 
+
+:legal:
+  :copyright: "2010 Jack Dempsey"
+  :license: "See LICENSE for details"

@@ -5,8 +5,9 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "assets"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{small layer that sits on top of paperclip and provides some conveniences}
+    gem.description = %Q{Assets is a simple gem that provides an ActiveRecord model that handles attachments via paperclip, 
+                        and provides additional helpful and often common functionality}
     gem.email = "jack.dempsey@gmail.com"
     gem.homepage = "http://github.com/jackdempsey/assets"
     gem.authors = ["Jack Dempsey"]
