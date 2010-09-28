@@ -1,0 +1,7 @@
+Assets Generator
+
+The assets generator invokes the active_record:model generator, whose Usage banner you will see above. 
+
+Use this generator in a similar fashion, passing in values we will send on to active_record:model
+
+rails generate assets:model NAME [field:type field:type]
