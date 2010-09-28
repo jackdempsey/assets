@@ -11,7 +11,9 @@ begin
     gem.email = "jack.dempsey@gmail.com"
     gem.homepage = "http://github.com/jackdempsey/assets"
     gem.authors = ["Jack Dempsey"]
-    gem.add_development_dependency "rspec", ">= 1.2.9"
+    gem.add_dependency "paperclip", "~> 2.3.3"
+    gem.add_dependency "activerecord", "~> 3.0.0"
+    gem.add_development_dependency "rspec", "~> 2.0.0.beta.22"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
