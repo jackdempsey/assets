@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jack Dempsey"]
-  s.date = %q{2010-09-28}
+  s.date = %q{2010-09-30}
   s.description = %q{Assets is a simple gem that provides an ActiveRecord model that handles attachments via paperclip, 
                         and provides additional helpful and often common functionality}
   s.email = %q{jack.dempsey@gmail.com}
@@ -26,8 +26,9 @@ Gem::Specification.new do |s|
      "VERSION",
      "assets.gemspec",
      "lib/assets.rb",
-     "lib/generators/assets_builder/install_generator.rb",
-     "lib/generators/assets_builder/templates/migration.rb",
+     "lib/generators/assets/USAGE",
+     "lib/generators/assets/model_generator.rb",
+     "lib/generators/assets/templates/migration.rb",
      "spec/assets_spec.rb",
      "spec/spec.opts",
      "spec/spec_helper.rb",
