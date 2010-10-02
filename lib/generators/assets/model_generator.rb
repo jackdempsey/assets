@@ -20,7 +20,7 @@ module Assets
       def inject_content
         inject_into_class model_path, class_name, %q{
   # Setup accessible (or protected) attributes for your model
-  attr_accessible :name, :description, :owner_type, :owner_id
+  attr_accessible :name, :description, :owner_type, :owner_id, :attachment
 
   belongs_to :owner, :polymorphic => true
 
